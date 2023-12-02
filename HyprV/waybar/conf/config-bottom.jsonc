@@ -1,0 +1,35 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 25,
+   
+    "modules-center": [
+        "custom/launch_firefox",
+        "custom/launch_kitty",
+        "custom/launch_thunar"],
+   
+
+    "custom/launch_firefox": {
+        "format": "",
+        "on-click": "firefox",
+        "tooltip": false
+    },
+
+    "custom/launch_thunar": {
+        "format": "",
+        "on-click": "exec thunar",
+        "tooltip": false
+    },
+
+    "custom/launch_kitty": {
+        "format": "",
+        "on-click": "exec kitty",
+        "tooltip": false
+    }
+    
+    
+}
